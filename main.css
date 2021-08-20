@@ -1,1 +1,88 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.barra{
+    position: absolute;
+    left: 0;
+    width: 220px;
+    height: 100%;
+    background: white;
+}
+.barra header{
+    font-size: 30px;
+    font-weight: bold;
+    height: 68px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    user-select: none;
+}
+.barra ul a{
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 33px;
+    font-size: 15px;
+    color: #725C5C;
+    padding-left: 24px;
+    box-sizing: border-box;
+    border-bottom: 1px solid;
+    border-bottom-color: #E7E7E7;
+}
+.cabecote{
+    position: absolute;
+    width: 1146px;
+    height: 68px;
+    left: 220px;
+    top: 0px;
+    background: #FDF1EB;
+}
+.cabecote h1{
+    position: absolute;
+    width: 391px;
+    height: 16px;
+    left: 36px;
+    top: 5px;
+    font-family: Roboto;
+    font-style: normal; 
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+} 
+.cabecote p{
+    position: absolute;
+    width: 105px;
+    height: 16px;
+    left: 36px;
+    top: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+.cabecote header{
+    position: absolute;
+    width: 643px;
+    height: 26px;
+    left: 36px;
+    top: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #725C5C;
+}
